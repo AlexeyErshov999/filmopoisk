@@ -1,0 +1,67 @@
+.film-body {
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #fff;
+    inline-size: 1424px;
+    block-size: 330px;
+}
+
+.film-picture {
+    border-radius: 8px;
+    inline-size: 100px;
+    block-size: 120px;
+}
+
+.film-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 1116px;
+}
+
+.film-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.film-description-container {
+    display: flex;
+    gap: 16px;
+}
+
+.film-fields,
+.fields-values {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.genre,
+.year,
+.description,
+.genre-value,
+.year-value,
+.description-value {
+    color: #ababab;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.genre-value,
+.year-value,
+.description-value {
+    color: #000;
+}
+
+.description-value {
+    max-width: 600px;
+}
+
+.rating {
+    display: flex;
+    gap: 8px;
+}

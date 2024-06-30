@@ -1,0 +1,17 @@
+.card {
+    inline-size: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.photo {
+    block-size: 228.57px;
+    border-radius: 8px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

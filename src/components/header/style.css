@@ -1,0 +1,39 @@
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    inline-size: 1920px;
+    padding: 24px 32px;
+    background-color: #333;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.5px;
+    color: #fff;
+    align-content: center;
+}
+
+.header-navigation {
+    display: flex;
+    gap: 16px;
+    align-content: center;
+}
+
+.header-button{
+    inline-size: 76px;
+    background-color: #ff5500;
+    border: 1px solid #ff5500;
+    border-radius: 8px;
+    block-size: 50px;
+}
+
+.header-button_text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}

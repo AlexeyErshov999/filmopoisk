@@ -1,0 +1,17 @@
+.search-bar {
+    display: flex;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #fff;
+    block-size: 40px;
+    inline-size: 400px;
+}
+
+.film-input {
+    inline-size: 352px;
+    block-size: 16px;
+}

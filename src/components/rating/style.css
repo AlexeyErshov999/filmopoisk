@@ -1,0 +1,5 @@
+.star {
+    cursor: pointer;
+    fill: grey;
+    font-size: 18px; /* Размер звезды */
+  }

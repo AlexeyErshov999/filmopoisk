@@ -1,0 +1,43 @@
+.filter-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    inline-size: 408px;
+    block-size: 232px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.fiter-tab_title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.filter-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.filter-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.genre-select,
+.year-select {
+    inline-size: 360px;
+    padding: 10px 16px;
+    border: 1px solid #e1e3e6;
+    border-radius: 8px;
+    color: #999fa6;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
